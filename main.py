@@ -19,11 +19,10 @@ logging.basicConfig(level=logging.INFO)
 @dp.message(Command("start"))
 async def cmd_start(message: Message):
     await message.answer("hi")
-
     
 # Запуск процесса поллинга новых апдейтов // Starting the polling process for new updates
 async def main():
-    dp.start_polling(bot)
+    await dp.start_polling(bot)
 
 #Запуск // start main.py
 
