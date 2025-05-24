@@ -1,2 +1,9 @@
 help/config_token.py
 help/__pycache__/config_token.cpython-313.pyc
+/.venv
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+*.json
+*.jpg
